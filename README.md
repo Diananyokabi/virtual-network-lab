@@ -32,7 +32,7 @@ Virtual-Network-Lab/
 ## Progress
 - [x] Project folder created
 - [x] GitHub repository created
-- [ ] Install VirtualBox
-- [ ] Install Ubuntu VM
+- [x] Install VirtualBox
+- [x] Install Ubuntu VM
 - [ ] Configure networking
 - [ ] Capture packets with Wireshark
