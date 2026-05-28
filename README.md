@@ -17,6 +17,27 @@ The goal is to simulate real IT support and networking scenarios for learning an
 
 ---
 
+## 🏗️ Lab Architecture
+
+This virtual environment simulates a small internal network with internet access.
+
+### Network Design
+
+- NAT Network (Internet access)
+  - Ubuntu VM
+  - Windows VM
+
+- Internal Network (labnet)
+  - Ubuntu ↔ Windows communication
+  - Static IP addressing
+
+### IP Addressing Scheme
+
+| VM      | NAT (Internet) | Internal Network |
+|---------|----------------|------------------|
+| Ubuntu  | 10.0.2.x       | 192.168.56.20    |
+| Windows | 10.0.2.x       | 192.168.56.10    |
+
 ## 🧠 Key Learning Objectives
 
 - Virtual machine setup and management
@@ -38,6 +59,15 @@ The goal is to simulate real IT support and networking scenarios for learning an
 - macOS
 
 ---
+
+## 🔧 Key Technical Implementations
+
+- Configured dual-network VirtualBox adapters (NAT + Internal Network)
+- Implemented static IP addressing for VM-to-VM communication
+- Resolved DHCP and routing issues in Linux (NetworkManager / nmcli)
+- Configured Windows Firewall to allow ICMP traffic
+- Enabled SSH server on Ubuntu and tested remote access from Windows
+- Performed packet capture and ICMP analysis using Wireshark
 
 ## 📁 Project Structure
 
@@ -88,10 +118,10 @@ These reflect real IT troubleshooting scenarios.
 
 ## 🚀 Next Steps
 
-- Install Ubuntu inside VirtualBox
-- Configure network settings (NAT / Bridged)
-- Perform packet capture using Wireshark
-- Simulate basic network troubleshooting scenarios
+- Expand lab with additional servers (DNS / Web server)
+- Simulate enterprise network segmentation
+- Introduce firewall rule testing scenarios
+- Explore basic penetration testing in isolated environment
 
 ---
 
