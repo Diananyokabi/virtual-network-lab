@@ -1,6 +1,6 @@
-# Virtual Network Lab
+# Virtual Network Lab (Enterprise Simulation Project)
 
-A hands-on IT support and networking lab built to simulate real-world infrastructure using virtualization tools.
+This project simulates a small enterprise network environment using VirtualBox with Ubuntu and Windows VMs. It demonstrates practical skills in networking, system administration, and troubleshooting.
 
 ---
 
