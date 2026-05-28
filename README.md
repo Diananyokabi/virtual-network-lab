@@ -38,6 +38,13 @@ This virtual environment simulates a small internal network with internet access
 | Ubuntu  | 10.0.2.x       | 192.168.56.20    |
 | Windows | 10.0.2.x       | 192.168.56.10    |
 
+## 🔗 Network Flow
+
+- NAT network provides internet access for both VMs
+- Internal network enables isolated VM-to-VM communication
+- SSH allows secure remote administration between systems
+- ICMP used for connectivity testing
+
 ## 🧠 Key Learning Objectives
 
 - Virtual machine setup and management
@@ -68,6 +75,14 @@ This virtual environment simulates a small internal network with internet access
 - Configured Windows Firewall to allow ICMP traffic
 - Enabled SSH server on Ubuntu and tested remote access from Windows
 - Performed packet capture and ICMP analysis using Wireshark
+
+## Results
+
+- Successfully configured VM-to-VM networking
+- Implemented static IP addressing
+- Enabled SSH remote access between Linux and Windows
+- Captured and analyzed network traffic using Wireshark
+- Resolved DHCP, firewall, and routing issues
 
 ## 📁 Project Structure
 
@@ -108,11 +123,16 @@ These reflect real IT troubleshooting scenarios.
 
 ## 📈 Skills Demonstrated
 
-- System setup and configuration
-- Problem-solving and troubleshooting
-- Command-line usage (Terminal / Git)
-- Version control workflows
-- Technical documentation
+- Linux Administration (Ubuntu)
+- Windows Administration
+- TCP/IP Networking
+- SSH Remote Access
+- NAT & Internal Networking
+- DHCP & Static IP Configuration
+- Firewall Configuration
+- Packet Analysis (Wireshark)
+- Git & GitHub Version Control
+- Network Troubleshooting Methodology
 
 ---
 
@@ -124,6 +144,12 @@ These reflect real IT troubleshooting scenarios.
 - Explore basic penetration testing in isolated environment
 
 ---
+
+## 🧭 Project Outcome
+
+This project successfully demonstrates the ability to design, configure, and troubleshoot a small enterprise-style network environment using virtualization technologies.
+
+It reflects real-world IT support and networking tasks including system setup, connectivity troubleshooting, and secure remote administration.
 
 ## 👤 Author
 
